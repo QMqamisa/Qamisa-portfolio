@@ -1,0 +1,54 @@
+html, body, header ,#intro{
+  height: 100%;
+  width:100%;
+
+}
+.view{
+  height: 100%;
+}
+ #intro {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVHHgwWQ71S_ekbEU9B83ws6lM3uQTtK2IrDV7DrzW2pZ54_jpg");
+  background-size: cover;
+  filter: brightness(80%);
+
+}
+.mask {
+  background: rbga(0, 0, 0, 0.3)
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+h1{
+  top: 150px;
+}
+.mask {
+  padding: 400px;
+  padding-top: 25px;
+}
+.fa-facebook {
+  background: #3B5998;
+  font-size: 60px;
+  color: white;
+  margin: 30px;
+}
+.fa-twitter {
+background:#55ACEE;
+font-size: 60px;
+color: white;
+margin: 30px;
+}
+.fa-whatsapp {
+  background:blue;
+  font-size: 60px;
+  color: white;
+  margin: 30px;
+}
